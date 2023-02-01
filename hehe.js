@@ -5,7 +5,7 @@ const sandwich = {
     veggietable: 'lettuce',
     sauce: 'mayonnaise',
 
-name : function() {
+name : function(text) {
     return this.meat + " sandwich with " + this.sauce;
 }
 };
@@ -13,9 +13,9 @@ name : function() {
 document.getElementById("food").innerHTML = sandwich.name();
 
 function myfunction(para1, para2){
-console.log(para1 + " " + para2);
+console.log(para1 + para2);
 }
-myfunction ("help","me");
+myfunction ("yee","haw");
 
 function message() {
     alert ("You're amazing!");

@@ -1,0 +1,12 @@
+body {
+    background-color: teal;
+}
+header {
+    color:white;
+}
+.box {
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
